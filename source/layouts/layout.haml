@@ -1,0 +1,28 @@
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "", name: "author"}/
+    %title Continuum / ASECH ::: Simulador de Impuestos (Reforma tributaria 2014 Chile)
+    / Bootstrap core CSS
+    %link{href: "stylesheets/bootstrap.css", rel: "stylesheet"}/
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    /[if lt IE 9]
+      %script{src: "../../assets/js/html5shiv.js"}
+      %script{src: "../../assets/js/respond.min.js"}
+    / Custom styles for this template
+    %link{href: "stylesheets/carousel.css", rel: "stylesheet"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Lato:300,400,700", rel: "stylesheet", type: "text/css"}/
+    = stylesheet_link_tag "application"
+
+  %body
+    = yield 
+
+    /
+      Bootstrap core JavaScript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{src: "javascripts/jquery.js"}
+    %script{src: "javascripts/bootstrap.min.js"}
+    %script{src: "javascripts/holder.js"}

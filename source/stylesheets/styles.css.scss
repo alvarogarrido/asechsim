@@ -1,0 +1,132 @@
+$mycolor: #506B7F;
+
+.mycolor {
+  color: $mycolor;
+  }
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ECECEC;
+  font-weight: 300;
+  font-size: 16px;
+
+}
+
+.navigation {
+  height: 80px;
+  margin-bottom: 30px;
+
+}
+
+.navbar-default {
+  background-color: #333 !important;
+  height: 80px !important;
+}
+
+.navbar-brand {
+  padding: 22px !important;
+}
+
+.navbar-btn {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.btn {
+  margin-bottom: 30px !important;
+  border-radius: 25px !important;
+  background-color: white !important;
+  color: #333 !important;
+  border: none !important;
+  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.positive {
+  border-left: 1px solid #fff;
+  height: 100%;
+
+}
+
+.negative {
+  border-right: 4px solid #DDD;
+  height: 100%;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #C60044;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 25px;
+}
+
+.nav-pills > li > a {
+  border-radius: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.1;
+  color: #333;
+}
+
+.hellotext {
+  display: inline-block;
+  padding-top: 40px;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.bighello {
+  display: block;
+  font-size: 96px;
+}
+
+.explanation-text {
+  color: #666;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 70px;
+}
+
+.twitterband {
+  background-color: $mycolor;
+  height: 160px;
+  padding: 30 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
