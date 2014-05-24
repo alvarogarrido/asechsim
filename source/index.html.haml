@@ -7,21 +7,31 @@
             %a.navbar-brand{:href => "http://www.continuum.cl"}
               %img{alt: "Continuum", src: "/images/asechsim-fut-emprendimiento-logo.png"}/
             %img.pullright.navbar-right.navbar-btn{alt: "Simulador de Impuestos - Continuum/Asech", src: "/images/asechsim-fut-emprendimiento-brand.png"}/
-      .col-md-3
-        %button.btn.btn-primary.btn-lg.btn-block{:type => "button"} Volver a simular
+      .col-md-3.actioncolumn
+        %button.btn.btn-primary.btn-lg.btn-block{:type => "button"}
+          %span.iconredo
+            %img{alt: "Volver a simular", src: "/images/asechsim-fut-emprendimiento-iconredo.png"}/
+          Volver a simular
 
         %p Explicación de como funciona el sistema financiero Chileno en virtud del lorem ipsum dolor sit amet, esta simulación busca la paz mundial y educación gratuita y de calidad para todos.
-        %p Lorem ipsum dolor sit amet consectetur adispiquem ultrices nunam canta munany pellentesque camer tune adispiquem lorem canta nece torto.
 
-      .col-md-9
+      .col-md-9.graphcol
         .row
           .col-lg-6.col-md-6.negative
             %p test
           .col-lg-6.col-md-6.positive
-            %p
-              test <br>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud <br>exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non
-              proident, <br>sunt in culpa qui officia deserunt <br>mollit anim id est laborum.
+
+            %p Impuestos hoy (antes de la reforma)
+            .bartaxes
+              .amounttag
+                %p $100MM
+
+            %p ...más el aumento del 20% al 25% de 1ra categoría
+            .bartaxes.increase
+              .amounttag
+                %p $20MM
+
+            %p ...más el 14bis
+            .bartaxes.special
+              .amounttag
+                %p $5MM
