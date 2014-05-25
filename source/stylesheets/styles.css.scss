@@ -1,5 +1,11 @@
 $mycolor: #506B7F;
 
+$widthmainbar:300;
+$widthincrease: 75;
+$widthspecial: 20;
+$widthrefund: 40;
+$whithrefundtotal: -($widthrefund + 5);
+
 .mycolor {
   color: $mycolor;
   }
@@ -44,10 +50,16 @@ body {
   padding-right: 10 !important;
 }
 
+.titlegraph {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .positive {
   border-left: 1px solid #fff;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 0 !important;
 
   p {
@@ -63,7 +75,7 @@ body {
 }
 
 .bartaxes {
-  width: 300px;
+  width: $widthmainbar;
   height: 35px;
   background-color: #BDBDBD;
   box-shadow: 1px 1px 0px rgba(0,0,0,0.4);
@@ -89,13 +101,26 @@ body {
 }
 
 .increase {
-  width: 75px;
+  width: $widthincrease;
   background-color: #A96323;
 }
 
 .special {
-  width: 20px;
+  width: $widthspecial;
   background-color: #794619;
+}
+
+.separator {
+  width: 1px;
+  height: 35px;
+  visibility: hidden;
+  margin-bottom: 30px;
+}
+
+.refund {
+  width: $widthrefund;
+  margin-left: $whithrefundtotal;
+  background-color: #63A365;
 }
 
 .sum {
