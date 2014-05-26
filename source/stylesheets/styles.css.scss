@@ -40,17 +40,6 @@ body {
   margin-bottom: 24px !important;
 }
 
-.btn {
-  margin-bottom: 30px !important;
-  border-radius: 35px !important;
-  background-color: white !important;
-  color: #333 !important;
-  border: none !important;
-  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
-  width: 210px !important;
-  padding-right: 10 !important;
-}
-
 .titlegraph {
   width: 50%;
   margin: 0 auto;
@@ -148,10 +137,27 @@ body {
 
 .actioncolumn {
   position: fixed;
+
+  .btn {
+  margin-bottom: 30px !important;
+  border-radius: 35px !important;
+  background-color: white !important;
+  color: #333 !important;
+  border: none !important;
+  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+  width: 210px !important;
+  padding-right: 10 !important;
+}
+
 }
 
 .graphcol {
   margin-left: 30%;
+}
+
+.formcol {
+  margin-left: 35%;
+  margin-top: 100px;
 }
 
 .iconredo{
