@@ -3,7 +3,8 @@ $mycolor: #506B7F;
 $widthmainbar:300;
 $widthincrease: 75;
 $widthspecial: 20;
-$widthrefund: 40;
+$widthrefund: 150;
+$widthfinal: 244;
 $whithrefundtotal: -($widthrefund + 5);
 
 .mycolor {
@@ -123,6 +124,11 @@ body {
   background-color: #63A365;
 }
 
+.finaltax {
+  width: $widthfinal;
+  background-color: #00C502;
+}
+
 .sum {
   margin-left: -200px;
 }
@@ -133,6 +139,11 @@ body {
 
 .totalbar {
   display: block;
+}
+
+.finalvalue {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .actioncolumn {
